@@ -44,7 +44,7 @@ While building the app, I encountered challenges with implementing responsive de
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Tanishq Saria
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -57,3 +57,14 @@ While building the app, I encountered challenges with implementing responsive de
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+## Future Enhancements
+
+* Implement a user account system where users can log in to track their favorite games and funding contributions.
+* Add a feature for users to leave comments and reviews on the games.
+* Integrate social sharing buttons to allow users to share their favorite games on social media.
+* Enhance the search functionality with advanced filters (e.g., by funding status, genre, etc.).
+* Add a light/dark mode toggle to improve accessibility and user comfort.
+
+---
