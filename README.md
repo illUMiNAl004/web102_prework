@@ -30,8 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![Video Walkthrough]("SeaMonsters CrowdFunder.gif")
-![Uploading SeaMonsters CrowdFunders.gif…]()
+(["SeaMonsters CrowdFunder.gif"](https://imgur.com/a/seamonsters-crowdfunders-k2sIQta))
 
 
 <!-- Replace the above link with the actual URL of your GIF. -->
