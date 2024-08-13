@@ -1,40 +1,46 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - SeaMonster Games
 
-Submitted by: **Your Name Here**
+Submitted by: Tanishq Saria
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+SeaMonster Games is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+## Time Spent
+5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+
+## Optional Features
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Implemented a responsive design to ensure the website is accessible on all device sizes, including mobile, tablet, and desktop.
+* [x] Added a search functionality that allows users to quickly find a specific game by name.
+* [x] Incorporated a sticky navigation bar that allows users to quickly navigate to different sections of the page.
+* [x] Enhanced the overall user experience with an awesome, clean, professional, and minimal user interface that is easy to navigate.
+* [x] Applied CSS animations and transitions to make the website more interactive and visually appealing.
+* [x] Included a progress bar that displays the funding progress of each game visually.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](http://i.imgur.com/link/to/your/gif/file.gif)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<!-- Replace the above link with the actual URL of your GIF. -->
+
+GIF created with LiceCap  
+<!-- Replace with the name of the GIF tool you used, e.g., Kap, ScreenToGif, Peek, etc. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+While building the app, I encountered challenges with implementing responsive design and ensuring consistent UI/UX across different browsers. Additionally, the integration of the search functionality required careful consideration of user experience to ensure it was intuitive and efficient.
 
 ## License
 
