@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-(["SeaMonsters CrowdFunder.gif"](https://imgur.com/a/seamonsters-crowdfunders-k2sIQta))
+([SeaMonsters CrowdFunder GIF](https://imgur.com/a/seamonsters-crowdfunders-k2sIQta))
 
 
 <!-- Replace the above link with the actual URL of your GIF. -->
