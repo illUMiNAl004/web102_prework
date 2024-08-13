@@ -1,81 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Cabin', sans-serif;
+    background-color: #1c1c1c; /* Darker background */
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
 }
 
-#tentacles {
+/* Header */
+.header {
+    display: flex;
+    background-color: #333;
+    padding: 1% 2%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #00bfae; /* Oceanic teal */
+}
+
+.header img {
     width: 50px;
 }
 
-.header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+.header-text {
+    color: #00bfae; /* Oceanic teal */
+    font-size: 1.8em;
 }
 
+/* Stats Container */
 .stats-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 15px;
 }
 
-.stats-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
-}
-
+/* Stats Card */
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #2b2b2b; /* Darker card background */
     border-radius: 7px;
-    padding: 1%;
-    margin: 1%;
-    width: 100%;
+    padding: 2%;
+    margin: 10px;
+    width: 30%;
     text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 40px;
+    color: #00bfae; /* Oceanic teal */
 }
 
+/* Game Container */
 #games-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 15px;
+}
+
+/* Game Card */
+.game-card {
+    background-color: #2b2b2b; /* Darker card background */
+    padding: 2%;
+    margin: 15px; /* Increased margin for better spacing */
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .game-img {
     width: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    height: auto;
 }
 
-.game-card {
-    background-color: #FFFFFF;
-    padding: 1%;
-    margin: 1%;
-    width: 300px;
-    text-align: center;
-    border-radius: 7px;
+.progress-bar-container {
+    background-color: #444;
+    border-radius: 5px;
+    height: 15px;
+    margin: 10px 0;
+    max-width: 100%; /* Ensure progress bar doesn't exceed container width */
 }
 
-.game-card:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+.progress-bar {
+    background-color: #4caf50; /* Green color */
+    height: 100%;
+    border-radius: 5px;
 }
 
-#button-container {
-    text-align: center;
-}
-
+/* Buttons */
 button {
-    font-family: 'Cabin';
+    background-color: #00bfae; /* Oceanic teal */
+    color: #fff;
     border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #009688; /* Darker teal for hover */
+}
+
+/* Search Input */
+#search-input {
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #00bfae; /* Oceanic teal */
+    width: 250px;
+    margin-right: 30px; /* Space from the right edge */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+    background: #2b2b2b; /* Darker background for the search bar */
+    color: #e0e0e0; /* Text color */
+}
+
+#search-input:focus {
+    width: 300px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .game-card {
+        width: 90%;
+    }
+    
+    #search-input {
+        width: 100%;
+        margin-right: 0;
+    }
 }

@@ -1,6 +1,6 @@
-# WEB102 Prework - SeaMonster Games
+# WEB102 Prework - SeaMonster Crowdfunders
 
-Submitted by: Tanishq Saria
+Submitted by: **Tanishq Saria**
 
 SeaMonster Games is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
@@ -22,8 +22,7 @@ The following **optional** features are implemented:
 
 * [x] Implemented a responsive design to ensure the website is accessible on all device sizes, including mobile, tablet, and desktop.
 * [x] Added a search functionality that allows users to quickly find a specific game by name.
-* [x] Incorporated a sticky navigation bar that allows users to quickly navigate to different sections of the page.
-* [x] Enhanced the overall user experience with an awesome, clean, professional, and minimal user interface that is easy to navigate.
+* [x] Enhanced the overall user experience with an awesome, clean, professional, and minimal user interface that is easy to navigate. Beautiful ui and awesome accent colours!
 * [x] Applied CSS animations and transitions to make the website more interactive and visually appealing.
 * [x] Included a progress bar that displays the funding progress of each game visually.
 
