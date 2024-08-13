@@ -31,6 +31,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 ![Video Walkthrough]("SeaMonsters CrowdFunder.gif")
+![Uploading SeaMonsters CrowdFunders.gif…]()
+
 
 <!-- Replace the above link with the actual URL of your GIF. -->
 
