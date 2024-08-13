@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![Video Walkthrough](http://i.imgur.com/link/to/your/gif/file.gif)
+![Video Walkthrough](https://imgur.com/a/k2sIQta)
 
 <!-- Replace the above link with the actual URL of your GIF. -->
 
