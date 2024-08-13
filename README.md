@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![Video Walkthrough](https://imgur.com/a/k2sIQta)
+![Video Walkthrough]("SeaMonsters CrowdFunder.gif")
 
 <!-- Replace the above link with the actual URL of your GIF. -->
 
